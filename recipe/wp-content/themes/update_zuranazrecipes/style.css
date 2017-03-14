@@ -1,0 +1,238 @@
+/*
+	Theme Name: Zuranaz Recipes
+	Theme URI: http://zuranazrecipe.com/
+	Description: A very nice theme for Food Related Businesses and Food Recipes Websites.
+	Author: Deelko
+	Author URI: http://www.deelko.com/
+	Version: 2.0
+	Text Domain: ZuRecipe
+	Domain Path: /languages
+	Tags: light, one-column, two-columns, three-columns, four-columns, right-sidebar, fixed-layout, custom-menu, full-width-template, theme-options, translation-ready
+
+	-----------------------------------------------------------------------------------
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	
+/*-----------------------------------------------------------------------------------*/
+/*----- Sub Menu CSS -----*/
+.sub-menu {
+width: 410px !important;
+}
+
+ul.sub-menu li {
+display: inline-block;
+float: left !important;
+width: 183px !important;
+}
+
+ul.sub-menu li:nth-child(odd) {
+float: left;
+padding-right: 0px !important;
+margin-right: 10px;
+}
+
+ul.sub-menu li:nth-child(even) {
+float: right !important;
+padding-left: 0px !important;
+}
+/*----- Sub Menu CSS -----*/
+
+/* top Advertise */
+
+#slider.slider2 .top-advertise {
+	width: 390px;
+	height: 86px;
+	padding: 0 0 0 102px;
+	background: url(images/most-rated.png) left top no-repeat #fff;
+	position: absolute;
+	top: -5px;
+	right: 0;
+	z-index: 605;
+	box-sizing: content-box;
+	border-top-right-radius: 7px;
+}
+
+#slider.slider2 .top-advertise .advertise-title {
+	font-size: 12px;
+	position: absolute;
+	left: 56px;
+	bottom: 28px;
+	color: #fff;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#slider.slider2 .top-advertise .item {
+	margin: 0;
+	padding: 0;
+	height: 86px;
+	background: url(images/most-rated-border.png) center bottom repeat-x;
+}
+
+/* end top Advertise */
+
+#whats-hot .cat-list li h4 {
+
+	background: url(images/pet-border.png) center bottom repeat-x;
+	/* border-bottom: 1px dotted #ccc; */
+}
+
+/* recent comment css */
+.recentcomments span.comment-author-link img{
+	max-width: 100%;
+	height: auto;
+	float: left;
+	border: 1px solid #ccc;
+	margin: 5px 7px 0px 0px;
+}
+.recentcomments p {
+	text-align: justify;
+}
+
+/* recent comment css */
+
+
+/*---------- contact form -----------*/
+
+#contact-form input[type="email"] {
+    background-color: #f3f7f8;
+}
+input[type="email"]:focus {
+    color: #9e9e9e;
+}
+input[type="email"] {
+    display: inline-block;
+    height: 18px;
+    padding: 8px;
+    margin: 0 0 0;
+    border: 1px solid #d5d5d5;
+    font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;
+    color: #888;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    outline: none;
+}
+
+/*---------- contact form -----------*/
+
+/*--- comment template ---*/
+#left-area .comments .navigation {
+	display: none;
+}
+#left-area .comments h3#comments {
+	font-size: 20px;
+	line-height: 26px;
+	margin-bottom: 15px;
+	padding-bottom: 25px;
+}
+
+#left-area .comments .commentlist {
+	margin: 20px 0;
+	padding: 0;
+	padding-right: 20px;
+}
+#left-area .comments .commentlist li.comment {
+	overflow: hidden;
+	margin: 0 0 20px;
+	list-style: none;
+}
+#left-area .comments .commentlist li.comment img {
+	max-width: 100%;
+	display: block;
+	width: 67px;
+	padding: 5px;
+	border: 1px solid #efefef;
+	margin: 0 10px 10px 0;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+#left-area .comments .commentlist .reply {
+	text-align: right;
+	padding-bottom: 10px;
+}
+
+#left-area .info-left ol li {
+	line-height: inherit;
+}
+/*--- comment template ---*/
+
+/*---- Recipe Single ----*/
+#left-area .recipe-single-img {
+
+}
+#left-area .single-img-box img {
+	/*width: 100%;*/
+}
+/*---- Recipe Single ----*/
+
+#left-area .info-left .recipe-content p{
+	text-align: justify;
+}
+#left-area .info-left ul.ing-group li.ingredient:first-child h4{
+	margin-top: 0px;
+}
+
+#left-area .info-left ul.ing-group li.ingredient h4{
+	margin-top: 15px;
+}
+
+#left-area em strong {
+	font-weight: normal;
+	color: #0053a6;
+}
+.tabed .block li:last-child {
+	padding: 0px 0px 18px !important;
+	margin: 0px 0px 13px !important;
+}
+.tabed .block li{
+	padding: 0px 0px 18px !important;
+	margin: 0px 0px 13px !important;
+}
+.tabed .block li em strong {
+	font-weight: normal;
+	color: #0053a6;
+}
+
+#content #sidebar .widget li p {
+	margin-bottom: 10px;
+}
+
+/*-------- Pagination -------- */
+#pagination span {
+    display: inline-block;
+    border: none;
+    height: 29px;
+    padding: 0 12px;
+    background: url(images/button-bg-h29.png) repeat-x;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+#pagination span.current {
+	font-weight: bold;
+	text-decoration: underline;
+}
+/*-------- Pagination -------- */
+
+#bottom li .recent-posts li .img-box {
+	background: url(images/image-frame-dark-71x64.png) no-repeat;
+}
+
+
+

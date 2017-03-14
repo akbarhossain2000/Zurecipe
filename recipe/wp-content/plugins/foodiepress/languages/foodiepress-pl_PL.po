@@ -1,0 +1,687 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TODO 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2013-05-10 11:23:19+00:00\n"
+"PO-Revision-Date: Tue May 19 2015 22:21:59 GMT+0200 (Środkowoeuropejski czas "
+"letni)\n"
+"Last-Translator: admin <rzepak@gmail.com>\n"
+"Language-Team: LANGUAGE <translations@example.com >\n"
+"Language: Polish\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Target-Locale: pl_PL"
+
+#: ../foodiepress.php:153
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" "
+"onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: ../foodiepress.php:158
+msgid "An unknown error occurred"
+msgstr ""
+
+# @ foodiepress
+#: ../admin/class-foodiepress-admin.php:173 ../public/class-foodiepress.php:595
+msgid "Choose or Upload an Image"
+msgstr "Wybierz lub wyślij plik"
+
+# @ foodiepress
+#: ../admin/class-foodiepress-admin.php:174
+msgid "Use this image"
+msgstr "Użyj ten obrazek"
+
+# @ foodiepress
+#: ../admin/class-foodiepress-admin.php:205
+msgid "FoodiePress Options"
+msgstr "Opcje FoodiePress"
+
+# @ foodiepress
+#: ../admin/class-foodiepress-admin.php:206
+msgid "FoodiePress"
+msgstr "FoodiePress"
+
+# @ foodiepress
+#: ../admin/class-foodiepress-admin.php:232
+msgid "Settings"
+msgstr "Ustawienia"
+
+# @ foodiepress
+#: ../admin/class-foodiepress-admin.php:276
+msgid ""
+"By default, if you want to display Recipe box in your post,\n"
+"		 you need to add [foodiepress] shortcode to content. If you'll check the "
+"checkbox below,\n"
+"		 FoodiePress will automatically add it to the end of each post that has "
+"recipe"
+msgstr ""
+"Domyślnie, jeśli chcesz wyświelić Przepis w wpisie, musisz dodać do niego "
+"shortcode [foodiepress]. Jeśli zaznaczysz opcje \"Wymuszaj przepis\" będzie on "
+"dodawny automatycznie do każdego wpisu który ma uzupełnione pola Składniki i "
+"Instrukcje."
+
+# @ foodiepress
+#: ../admin/views/admin.php:20
+msgid ""
+"This is setting page for FoodiePress - WordPress recipe plugin, currently we "
+"don't have many options :) but we will add them in next updates"
+msgstr "Ustawianie dla FoodiePress - aktualnie ma ich dużo, ale będzie przybywać :)"
+
+#: ../public/class-favs.php:28
+msgid "You've already added that post"
+msgstr ""
+
+#: ../public/class-favs.php:35 ../public/class-favs.php:82
+msgid "Oops, something went wrong, please try again"
+msgstr ""
+
+#: ../public/class-favs.php:38 ../public/class-favs.php:53
+msgid "Recipe was added to the list"
+msgstr ""
+
+#: ../public/class-favs.php:85 ../public/class-favs.php:98
+msgid "Recipe was removed from the list"
+msgstr ""
+
+#: ../public/class-favs.php:148 ../public/class-favs.php:157
+msgid "Browse Favourites"
+msgstr ""
+
+#: ../public/class-favs.php:150 ../public/class-favs.php:159 ../public/class-favs.
+#: php:162
+msgid "Add to Favourites"
+msgstr ""
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:84
+msgid "Calories"
+msgstr "Kalorie"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:85
+msgid "Carbohydrate Content"
+msgstr "Węglowodany"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:86
+msgid "Cholesterol Content"
+msgstr "Cholesterol"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:87
+msgid "Fat Content"
+msgstr "Tłuszcz"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:88
+msgid "Fiber Content"
+msgstr "Błonnik"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:89
+msgid "Protein Content"
+msgstr "Proteiny"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:90
+msgid "Saturated Fat Content"
+msgstr "Tłuszcze nasycone"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:91
+msgid "Serving Size"
+msgstr "Porcja"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:92
+msgid "Sodium Content"
+msgstr "Sód"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:93
+msgid "Sugar Content"
+msgstr "Cukier"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:94
+msgid "Trans Fat Content"
+msgstr "Tłuszcz trans"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:95
+msgid "Unsaturated Fat Content"
+msgstr "Tłuszcze nienasycone"
+
+#: ../public/class-foodiepress.php:290
+msgid "Total time needed"
+msgstr ""
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:291 ../public/class-foodiepress.php:304
+msgid "Time needed"
+msgstr "Wymagany czas"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:292
+msgid "Search Time needed"
+msgstr "Szukaj"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:293
+msgid "Popular Time needed"
+msgstr "Popularne"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:294
+msgid "All Time needed"
+msgstr "Wszystkie"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:295
+msgid "Parent Time needed"
+msgstr "Rodzic"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:296
+msgid "Parent Time needed:"
+msgstr "Rodzic"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:297
+msgid "Edit Time needed"
+msgstr "Edytuj czas"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:298
+msgid "Update Time needed"
+msgstr "Uaktualnij czas"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:299
+msgid "Add New Time needed"
+msgstr "Dodaj nowy"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:300
+msgid "New Time needed Name"
+msgstr "Nowa nazwa"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:301
+msgid "Separate time needed with commas"
+msgstr "Oddziel wpisy przecinkiem"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:302
+msgid "Add or remove time needed"
+msgstr "Dodaj lub usuń"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:303
+msgid "Choose from the most used time needed"
+msgstr "Wybierz z najpopularniejszych"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:322 ../public/class-foodiepress.php:336
+msgid "Levels"
+msgstr "Poziomy"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:323
+msgid "Level"
+msgstr "Poziom"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:324
+msgid "Search Levels"
+msgstr "Szukaj "
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:325
+msgid "Popular Levels"
+msgstr "Popularne"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:326
+msgid "All Levels"
+msgstr "Wszystkie"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:327
+msgid "Parent Level"
+msgstr "Rodzic"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:328
+msgid "Parent Level:"
+msgstr "Rodzic"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:329
+msgid "Edit Level"
+msgstr "Edytuj"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:330
+msgid "Update Level"
+msgstr "Auaktualnij"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:331
+msgid "Add New Level"
+msgstr "Dodaj nowy poziom"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:332
+msgid "New Level Name"
+msgstr "Nazwa nowego poziomu"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:333
+msgid "Separate levels with commas"
+msgstr "Oddziel wpisy przecinkami"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:334
+msgid "Add or remove levels"
+msgstr "Dodaj lub usuń"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:335
+msgid "Choose from the most used levels"
+msgstr "Wybierz z najpopularniejszych"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:354 ../public/class-foodiepress.php:368
+msgid "Servings"
+msgstr "Porcje"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:355 ../public/class-foodiepress.php:1091
+msgid "Serving"
+msgstr "Porcje"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:356
+msgid "Search Servings"
+msgstr "Przeszukaj porcje"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:357
+msgid "Popular Servings"
+msgstr "Popularne "
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:358
+msgid "All Servings"
+msgstr "Wszystkie porcje"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:359
+msgid "Parent Serving"
+msgstr "Rodzic"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:360
+msgid "Parent Serving:"
+msgstr "Rodzic"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:361
+msgid "Edit Serving"
+msgstr "Edytuj"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:362
+msgid "Update Serving"
+msgstr "Uaktualnij"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:363
+msgid "Add New Serving"
+msgstr "Dodaj nową porcję"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:364
+msgid "New Serving Name"
+msgstr "Nazwa nowej porcji"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:365
+msgid "Separate servings with commas"
+msgstr "Oddziel nazwy przecinkami"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:366
+msgid "Add or remove servings"
+msgstr "Dodaj lub usuń"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:367
+msgid "Choose from the most used servings"
+msgstr "Wybierz z najpopularnieszych"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:387 ../public/class-foodiepress.php:401
+msgid "Food Allergens"
+msgstr "Alergeny pokarmowe"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:388
+msgid "Allergen"
+msgstr "Alergeny"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:389
+msgid "Search Allergens"
+msgstr "Szukaj"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:390
+msgid "Popular Allergens"
+msgstr "Popularne"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:391
+msgid "All Allergens"
+msgstr "Wszystkie"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:392
+msgid "Parent Allergen"
+msgstr "Rodzic"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:393
+msgid "Parent Allergen:"
+msgstr "Rodzic"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:394
+msgid "Edit Allergen"
+msgstr "Edytuj"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:395
+msgid "Update Allergens"
+msgstr "Uaktualnij alergen"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:396
+msgid "Add New Allergens"
+msgstr "Dodaj nowy alergen"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:397
+msgid "New Allergens Name"
+msgstr "Nazwa nowego alergena"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:398
+msgid "Separate allergens with commas"
+msgstr "Odzdziel wpisy przecinkami"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:399
+msgid "Add or remove allergens"
+msgstr "Dodaj lub usuń alergeny"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:400
+msgid "Choose from the most used allergens"
+msgstr "Wybierz z najpopularniejszych"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:420 ../public/class-foodiepress.php:434 ..
+#: public/class-foodiepress.php:511 ../public/class-foodiepress.php:1094
+msgid "Ingredients"
+msgstr "Składniki"
+
+#: ../public/class-foodiepress.php:421
+msgid "Ingredient"
+msgstr ""
+
+#: ../public/class-foodiepress.php:422
+msgid "Search Ingredients"
+msgstr ""
+
+#: ../public/class-foodiepress.php:423
+msgid "Popular Ingredients"
+msgstr ""
+
+#: ../public/class-foodiepress.php:424
+msgid "All Ingredients"
+msgstr ""
+
+#: ../public/class-foodiepress.php:425
+msgid "Parent Ingredient"
+msgstr ""
+
+#: ../public/class-foodiepress.php:426
+msgid "Parent Ingredient:"
+msgstr ""
+
+#: ../public/class-foodiepress.php:427
+msgid "Edit Ingredient"
+msgstr ""
+
+#: ../public/class-foodiepress.php:428
+msgid "Update Ingredient"
+msgstr ""
+
+#: ../public/class-foodiepress.php:429
+msgid "Add New Ingredient"
+msgstr ""
+
+#: ../public/class-foodiepress.php:430
+msgid "New Ingredient"
+msgstr ""
+
+#: ../public/class-foodiepress.php:431
+msgid "Separate ingredients with commas"
+msgstr ""
+
+#: ../public/class-foodiepress.php:432
+msgid "Add or remove Ingredients"
+msgstr ""
+
+#: ../public/class-foodiepress.php:433
+msgid "Choose from most used Ingredients"
+msgstr ""
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:465
+msgid "Recipe editor"
+msgstr "Edytor przepisu"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:489
+msgid "Recipe title"
+msgstr "Tytuł przepisu"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:491
+msgid ""
+"It's neccessery for google rich snippet to put Title of recipe here, if "
+"empty - post title will be used"
+msgstr ""
+"Tytuł jest wymagany dla Google Rich Snippet, jeśli pole zostanie puste, "
+"pobrany będzie tytuł wpisu"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:496
+msgid "Recipe Theme"
+msgstr "Szablon przepisu"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:499
+msgid "Choose if want to show sidebar next to post content"
+msgstr "Wybierz czy chcesz wyświetlić pasek boczny obok wpisu"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:504 ../public/class-foodiepress.php:506
+msgid "Short summary of recipe"
+msgstr "Krótkie podsumowanie przepisu"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:517 ../public/class-foodiepress.php:1095
+msgid "Instructions"
+msgstr "Instrukcje"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:523
+msgid "Recipe options"
+msgstr "Opcje przepisu"
+
+#: ../public/class-foodiepress.php:529 ../public/class-foodiepress.php:1093
+msgid "Nutrition facts <span>(per portion)</span>"
+msgstr ""
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:535
+msgid "Photo"
+msgstr "Zdjęcie"
+
+#: ../public/class-foodiepress.php:596
+msgid "Remove photo echo"
+msgstr ""
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:633
+msgid "Preparation time for this recipe is "
+msgstr "Czas przygotowania przepisu"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:633 ../public/class-foodiepress.php:634
+msgid "minutes"
+msgstr "minut"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:634
+msgid " and cooking time takes"
+msgstr "a czas gotowania "
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:635
+msgid "Yield is"
+msgstr "Wynik"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:677
+msgid "Name of ingriedient"
+msgstr "Nazwa składnika"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:678
+msgid "Notes (quantity, additional info)"
+msgstr "Informacja (np wymaganailość)"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:679
+msgid "Actions"
+msgstr "Akcje"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:686
+msgid "move"
+msgstr "przenieś"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:690 ../public/class-foodiepress.php:702 ..
+#: public/class-foodiepress.php:711
+msgid "Delete"
+msgstr "usuń"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:722
+msgid "Add new ingridient"
+msgstr "Dodaj nowy składnik"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:723
+msgid "Add separator"
+msgstr "Dodaj separator"
+
+#: ../public/class-foodiepress.php:947
+msgid "Added to Fav List!"
+msgstr ""
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:1087
+msgid "By"
+msgstr "Przez"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:1088
+msgid "Prep Time"
+msgstr "Czas przygotowania"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:1089
+msgid "Cook Time"
+msgstr "Czas gotowania"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:1090
+msgid "Yield"
+msgstr "Wynik"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:1092
+msgid "Allergens"
+msgstr "Alergeny pokarmowe"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:1096 ../public/class-foodiepress.php:1378 ..
+#: public/class-foodiepress.php:1386
+msgid "Rating"
+msgstr "Ocena"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:1097
+msgid "stars - based on"
+msgstr "gwiazdek, bazując na"
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:1098
+msgid " review(s)"
+msgstr "ocenach"
+
+#: ../public/class-foodiepress.php:1109
+msgid "Print"
+msgstr ""
+
+# @ foodiepress
+#: ../public/class-foodiepress.php:1142
+msgid " minutes"
+msgstr "minuty"
+
+#: ../public/class-foodiepress.php:1226
+msgid "Rating:"
+msgstr ""
+
+#: ../public/class-foodiepress.php:1366
+msgid "(% reviews)"
+msgstr ""
+
+#: ../public/class-foodiepress.php:1368
+msgid "(No Reviews)"
+msgstr ""
+
+#: ../public/class-foodiepress.php:1370
+msgid "(1 review)"
+msgstr ""
